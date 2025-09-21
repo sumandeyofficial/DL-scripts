@@ -1,10 +1,6 @@
-import scienceplots
 import matplotlib.pyplot as plt
 import numpy as np
 import random
-
-plt.style.use('science')
-plt.rc('text', usetex=plt.rcParamsDefault['text.usetex'])
 
 class LinearRegressionGD:  
     def __init__(self, learning_rate=0.01, epochs=20):  # constructing a constructor
